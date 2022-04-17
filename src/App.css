@@ -1,0 +1,236 @@
+*{  margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.App {
+    max-width: 1230px;
+    width:100%;
+    margin:auto;
+    box-shadow:0 2px 6px #555;
+    padding :0 15px;
+
+}
+/* ----------header--------------- */
+header {
+    width:100%;
+    min-height: 100px;
+    overflow: hidden;
+    display:flex;
+    align-items: center;
+    border-radius: 1px solid #ccc;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+a {
+    text-decoration:none;
+    text-transform:uppercase;
+    color:#555;
+    letter-spacing:2px;
+  
+}
+header a:hover {
+    color:lightseagreen;
+}
+header ul li {
+    list-style: none;
+    display:inline-block;
+    padding: 0 15px;
+
+}
+header > ul {
+    transition: 0.5 ease-in;
+}
+.menu {
+    display:none;
+}
+
+
+.cart-icon {
+    position: relative;
+    margin-right: 15px;
+}
+.cart-icon span {
+    background-color: crimson;
+    border-radius: 20px;
+    color:white;
+    position: absolute;
+    top:-10px;
+    right:-10px;
+    font-size:10px;
+    padding:5px;
+    
+}
+
+/* ------------under background img-------------- */
+.under-header-background {
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom:20px;
+}
+.under-header-background img {
+    border: 4px solid #ccc;
+    width:360px;
+   
+}
+/* --------footer --------------- */
+.footer {
+    border-top: 2px solid #ccc;
+    background-color:#F2F2F2
+}
+.footer-wrap {
+    display:flex;
+    list-style: none;
+}
+.footer-item {
+    width: 20%;
+    text-align: center;
+}
+.footer-item >p {
+    margin: 6px 0;
+}
+.footer-item p {
+    font-size:12px;
+}
+.footer-item h4 {
+    font-size:14px;
+    margin-bottom: 10px;
+}
+.footer-item input {
+    margin-bottom: 10px;
+}
+.footer-item span {
+    font-size:14px;
+    display: inline-block;
+    padding:4px 0;
+}
+.footer-social i{
+    padding:0  4px;
+}
+.footer-img {
+    width:120px;
+}
+/* ------product ----------- */
+.products {
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin:15px 0;
+}
+.products .card {
+    max-width:380px;
+    width:100%;
+    overflow: hidden;
+    height: 570px;
+    box-shadow:0 0 5px #ccc;
+    padding: 15px 15px;
+    margin:15px 0 ;
+    cursor :pointer ;
+
+}
+.card img {
+    width: 100%;
+    height: 100%;
+    max-height: 340px;
+    display :block;
+    object-fit:cover;
+
+}
+.card .box {
+    margin:15px 0 ;
+
+}
+.card .box h3 {
+    text-transform: uppercase;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.card .box p {
+    margin:10px 0 ;
+    line-height: 1.5;
+}
+.card .box h4 {
+    color:crimson;
+}
+.card .box button {
+    width:100%;
+    border: none;
+    outline: none;
+    background-color: #333;
+    color :white;
+    text-align: center;
+    padding:10px 0;
+    margin :10px 0 ;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+@media  (max-width:770px) {
+    .cart-icon{
+
+        position: relative;
+        margin-right: 85px;
+        margin-bottom: 17px;
+    }
+}
+/* register */
+
+.register{
+    font-weight: 100;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 500px;
+    
+}
+.register-form {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction:column;
+    padding: 20px 40px;
+    border: 1px solid #ccc;
+    box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+}
+.email-wrap {
+    margin-bottom: 20px;
+
+}
+
+.email-wrap.email-err p{
+    display: block;
+}
+.email-wrap p{
+    display: none;
+}
+
+.register-form input{
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 14px;
+}
+.register-form button {
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+    width: 60px;
+    margin-top: 6px;
+   transform: translateX(225%);
+}
+
+.btn-wrap p{
+    display: none;
+}
+.btn-wrap.btn-err p{
+    display: block;
+}
+.email-wrap.email-err input {
+    border: 1px solid red;
+}
+.pass-wrap.pass-err input {
+    border: 1px solid red;
+}
