@@ -69,7 +69,7 @@ function Details() {
                             onClick={()=>{
                                 addCart(product._id)
                                 navigate('/cart')}}>
-                            Add to cart
+                            Add to carts
                         </button>
                      
                     </div>
