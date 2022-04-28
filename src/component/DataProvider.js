@@ -26,8 +26,9 @@ export const DataProvider = ({props,children})=>{
       "_id": "2",
       "title": "Wacth Product 02",
       "images": [
-          "img/clock2-1.jpg",
-          "img/clock2-2.jpg",
+          "https://cf.shopee.vn/file/a322f5a69c901e5910456eb4bf5fc83f_tn",
+          "https://cf.shopee.vn/file/ed4502cd9c9564b3fb5a446740d6ac28_tn",
+          "https://cf.shopee.vn/file/7fbc6fadef053d16f80f53bfd5caa1f8_tn"
          
           ],
       "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
@@ -41,8 +42,8 @@ export const DataProvider = ({props,children})=>{
       "_id": "3",
       "title": "Wacth Product 03",
       "images": [
-          "img/clock3-1.jpg",
-          "img/clock3-2.jpg",
+          "https://cf.shopee.vn/file/90f1fa5ad69886e67f6486964bc4f235_tn",
+          "https://cf.shopee.vn/file/6431c5d77acb13312ac503a158dc4cda_tn",
          
           ],
       "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
@@ -56,8 +57,8 @@ export const DataProvider = ({props,children})=>{
       "_id": "4",
       "title": "Wacth Product 04",
       "images": [
-          "img/clock4-1.jpg",
-          "img/clock4-1.jpg",
+          "https://cf.shopee.vn/file/b5ea220fca2da482d24c360ff5fc3e05_tn",
+          "https://cf.shopee.vn/file/24105392263981fde7d92d792ccf2396_tn",
          
           ],
       "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
@@ -71,8 +72,8 @@ export const DataProvider = ({props,children})=>{
       "_id": "5",
       "title": "Wacth Product 05",
       "images": [
-          "img/clock5-1.jpg",
-          "img/clock5-2.jpg",
+          "https://cf.shopee.vn/file/5b80f67008aae5a5802305d49190e543_tn",
+          "	https://cf.shopee.vn/file/e549c84ff5797b90367405f0bb5674d1_tn",
          
           ],
       "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
@@ -86,8 +87,8 @@ export const DataProvider = ({props,children})=>{
       "_id": "6",
       "title": "Wacth Product 06",
       "images": [
-          "img/clock6-1.jpg",
-          "img/clock6-2.jpg",
+          "https://cf.shopee.vn/file/dea4b4003866c43ed3c1baadf0efbef8_tn",
+          "	https://cf.shopee.vn/file/4995398716fb4f06e26ad5c0e5efd285_tn",
          
           ],
       "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
